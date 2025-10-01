@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/NEXTRA-frontend/",  // 👈 repo name
+  base: "http://localhost:5173/",  // 👈 repo name
 })

@@ -92,3 +92,57 @@ body {
     transform: translateX(-50%);
   }
 }
+/* Login Page Styles */
+.login-page {
+  display: flex;
+}
+
+.login-left {
+  flex: 1;
+  background: #064e3b; /* GUVI green shade */
+  color: white;
+  text-align: left;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feature-box:hover {
+  background: #16a34a;
+  transition: 0.3s ease-in-out;
+}
+
+.login-right {
+  flex: 1;
+}
+/* Signup Page Styles */
+.signup-page {
+  display: flex;
+}
+
+.signup-left {
+  flex: 1;
+  background: #064e3b; /* GUVI green */
+  color: white;
+}
+
+.signup-left ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.signup-right {
+  flex: 1;
+}
