@@ -9,7 +9,7 @@ export default function Signup() {
           Get your <span className="text-warning">First Course for FREE</span> with GUVI!
         </h2>
         <ul className="list-unstyled mt-3">
-          <li>✅ Sign up with GUVI.</li>
+          <li>✅ Sign up with NEXTRA.</li>
           <li>✅ Confirm your account through email.</li>
           <li>✅ Receive a unique coupon code in Welcome Email.</li>
           <li>✅ Use the coupon to avail your first Premium course at no cost.</li>
